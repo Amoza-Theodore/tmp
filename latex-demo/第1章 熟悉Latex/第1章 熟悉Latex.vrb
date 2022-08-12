@@ -1,0 +1,11 @@
+\frametitle{从一个例子说起}\framesubtitle {设计文章的格式}	\begin{verbatim}
+		\newenvironment{myquote}
+		{\begin{quote}\kaishu\zihao{-5}}
+		{\end{quote}}
+	
+		\begin{myquote}
+		勾广三，股修四，径隅五。
+		\end{myquote}
+	
+		\newcommand\degree{^\circ}
+	\end{verbatim}

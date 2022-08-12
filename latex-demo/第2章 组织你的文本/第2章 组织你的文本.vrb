@@ -1,0 +1,10 @@
+\frametitle{文档的层次结构}\framesubtitle {多文件编译}	\begin{Verbatim}[tabsize=2]
+% lang-natural.tex
+%
+“自然语言”一章，不能单独编译
+\chapter{自然语言}
+
+% lang-computer.tex
+% “计算机语言”一章，不能单独编译
+\chapter{计算机语言}
+	\end{Verbatim}
